@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(../img/bg1.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100vmax;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body .sec1 {
+  width: 100%;
+  height: 75vh;
+  margin-bottom: 2em;
+}
+
+.sticky {
+  background-color: #121212;
+  -webkit-box-shadow: 0 3px 1rem;
+          box-shadow: 0 3px 1rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.custom-section {
+  margin-top: 15em;
+  height: 100px;
+}
+
+.custom-section h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+
+.custom-section p {
+  margin-top: 2em;
+  color: #FFFFFF;
+  font-weight: 200;
+}
+
+.sec2 {
+  width: 100%;
+  height: 500px;
+  margin-top: 4em;
+}
+
+.sec2 .container .row .new-col {
+  width: 40%;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.sec2 .container .row .new-col h6 {
+  color: #00811E;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 1.2rem;
+}
+
+.sec2 .container .row .new-col h2 {
+  color: #000000;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.sec2 .container .row .new-col .text-about1 {
+  font-weight: 600;
+  font-size: 1.13rem;
+  margin-top: 10px;
+}
+
+.sec2 .container .row .new-col .text-about2 {
+  font-weight: 400;
+  font-size: 0.99rem;
+  margin-top: 10px;
+}
+
+.sec2 .container .row .new-col .about-button {
+  margin-top: 10px;
+  background-color: #00811E;
+  color: #FFFFFF;
+  padding: 15px 50px;
+  border-radius: 0;
+}
+
+.sec2 .container .row .new-col2 {
+  width: 50%;
+  margin-left: 8.2rem;
+}
+
+.sec2 .container .row .new-col2 .img-row img {
+  width: 280px;
+  height: 210px;
+}
+
+.sec2 .container .row .new-col2 .img-row .about-img2 {
+  margin-left: 100px;
+}
+
+.sec2 .container .row .new-col2 .new-img-row img {
+  width: 583px;
+  height: 280px;
+}
+
+.sec2 .container .row .new-col2 .new-img-row .about-img3 {
+  margin-top: 20px;
+}
+
+.sec3 {
+  width: 100%;
+  height: 580px;
+  background-image: url(../img/background2.png);
+  background-size: 100vmax;
+  background-repeat: no-repeat;
+  margin-top: 6em;
+}
+
+.sec3 .container .title-about-animal {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.sec3 .container .card-size {
+  width: 290px;
+  height: 290px;
+}
+
+.sec3 .container .card-size .card-body .new-paw {
+  background-color: #00811E;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 100%;
+  width: 60px;
+  margin-left: 97px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sec3 .container .card-size .card-body h5 {
+  font-weight: 600;
+}
+
+.sec3 .container .card-size .card-body p {
+  font-weight: 500;
+  color: #C1C1C1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sec4 {
+  width: 100%;
+  height: auto;
+  margin-top: 6rem;
+}
+
+.sec4 .container h6 {
+  color: #00811E;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 1.2rem;
+}
+
+.sec4 .container h2 {
+  color: #000000;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 70px;
+}
+
+.sec4 .container .row .col .card {
+  border: 0;
+  background-color: #F8F8F8;
+}
+
+.sec4 .container .row .col .card img {
+  width: 414px;
+  height: 242px;
+}
+
+.sec4 .container .row .col .card .card-body {
+  padding: 30px 50px;
+}
+
+.sec4 .container .row .col .card .card-body h5 {
+  font-weight: 700;
+}
+
+.sec4 .container .row .col .card .card-body p {
+  font-weight: 600;
+  color: #C1C1C1;
+}
+
+.sec5 {
+  width: 100%;
+  height: auto;
+  margin-top: 6em;
+}
+
+.sec5 .container {
+  width: 200%;
+}
+
+.sec5 .container .galeri-title h6 {
+  color: #00811E;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 1.2rem;
+}
+
+.sec5 .container .galeri-title h2 {
+  color: #000000;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 70px;
+}
+
+.sec5 .galery-flex .img-flex .model {
+  width: 422px;
+  height: 400px;
+}
+
+.sec5 .galery-flex .img-flex .model2 {
+  width: 422px;
+  height: 400px;
+}
+
+.sec5 .galery-flex .img-flex .model3 {
+  width: 422px;
+  height: 400px;
+}
+
+.sec5 .galery-flex .img-flex .model4 {
+  width: 422px;
+  height: 400px;
+}
+
+.foot-set {
+  background-color: #121212;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  padding-left: 12rem;
+  padding-right: 7rem;
+  height: 500px;
+  width: 100vmax;
+}
+
+.foot-set .col-4 p {
+  color: #C1C1C1;
+  margin-top: 25px;
+}
+
+.foot-set .col-4 .social-icon .bd-highlight a img {
+  margin-left: -6px;
+}
+
+.foot-set .col {
+  color: #FFFFFF;
+}
+
+.foot-set .col ul {
+  margin-top: 30px;
+}
+
+.foot-set .col ul li {
+  margin-top: 5px;
+}
+
+.foot-set .col ul li a {
+  color: #FFFFFF;
+}
+
+.foot-set .col ul li a svg {
+  padding-left: 2px;
+}
+
+.foot-set .col ul li a span {
+  padding-left: 15px;
+}
+
+.foot-set .bottom-footer {
+  width: 100%;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.foot-set .bottom-footer .copyright {
+  color: #C1C1C1;
+}
+/*# sourceMappingURL=main.css.map */

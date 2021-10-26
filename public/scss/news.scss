@@ -1,0 +1,217 @@
+    // Font
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+    // Variables
+    $primaryColor: #00811E;
+    $secondaryColor: #FFFFFF;
+    $tertiaryColor: #121212;
+    $textColor: #000000;
+    $hoverColor: #C1C1C1;
+    $bgcardColor:#F8F8F8;
+
+
+    // Style
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        background-image: url(../img/background-crop.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size:100vmax;
+        max-width: 100%;
+        overflow-x: hidden;
+        .sec1{
+            width: 100%;
+            height: 30vh;
+            margin-bottom: 2em;
+        }
+    }
+
+    // navbar
+    .sticky{
+        background-color: $tertiaryColor;
+        box-shadow: 0 3px 1rem;
+        transition: 1s;
+    }
+
+    //custom section
+    .custom-section{
+        margin-top: 6em;
+        margin-left: 0.5em;
+        h2{
+            font-size: 3rem;
+            font-weight: 600;
+            color: $secondaryColor;
+            white-space: nowrap;
+        }
+    }
+    //custom section
+    .custom-section{
+        margin-top: 12em;
+        h2{
+            font-size: 3rem;
+            font-weight: 600;
+            color: $secondaryColor;
+            white-space: nowrap;
+        }
+    }
+
+// section Berita
+.sec4-1{
+    margin-left: 30px;
+    .container{
+        .row{
+            .col-img{
+                table{
+                    tr{
+                        .gajah-img{
+                            height: 500px;
+                            margin-top: 30px;
+                            margin-right: 20px;
+                        }
+                        .badak-img{
+                            margin-top: 33px;
+                            height: 230px;
+                            width: 300px;
+                        }
+                        .kudanil-img{
+                            margin-top: 17px;
+                            height: 250px;
+                            width: 300px;
+                        }
+                    }
+                }
+            }
+            .new-col{
+                width: 40%;
+                padding-top: 60px;
+                padding-left: 140px;
+                h6{
+                    color: $primaryColor;
+                    font-weight: 700;
+                    white-space: nowrap;
+                    font-size: 1.2rem;
+                }
+                h2{
+                    color: $textColor;
+                    font-weight: 800;
+                    font-size: 3rem;
+                }
+                .text-about1{
+                    font-weight: 600;
+                    font-size: 1.13rem;
+                    margin-top: 10px;
+                }
+                .text-about2{
+                    font-weight: 400;
+                    font-size: 0.99rem;
+                    margin-top: 10px;
+                }
+                .about-button{
+                    margin-top: 10px;
+                    background-color: $primaryColor;
+                    color: $secondaryColor;
+                    padding: 15px 50px;
+                    border-radius: 0;
+                }
+            }
+        }
+    }
+}
+
+
+.sec4{
+    width: 100%;
+    height: auto;
+    margin-top: 6rem;
+    margin-left: 20px;
+    margin-bottom: 4rem;
+    .container{
+        h6{
+            color: $primaryColor;
+            font-weight: 700;
+            white-space: nowrap;
+            font-size: 1.2rem;
+        }
+        h2{
+            color: $textColor;
+            font-weight: 800;
+            font-size: 3rem;
+            margin-bottom: 70px;
+        }
+        .row{
+            .col{
+                .card{
+                    border: 0;
+                    background-color: $bgcardColor;
+                    img{
+                        width: 414px;
+                        height: 242px;
+                    }
+                    .card-body{
+                        padding: 30px 50px;
+                        h5{
+                            font-weight: 700;
+                        }
+                        p{
+                            font-weight: 600;
+                            color: $hoverColor;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+}
+
+// Footer
+.foot-set{
+    background-color: $tertiaryColor;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    padding-left: 14rem;
+    padding-right: 7rem;
+    height: 500px;
+    width: 100vmax;
+    .col-4{
+        p{
+            color: $hoverColor;
+            margin-top: 25px;
+        }
+        .social-icon{
+            .bd-highlight{
+                a{
+                    img{
+                        margin-left: -6px;
+                    }
+                }
+            }
+        }
+    }
+    .col{
+        color: $secondaryColor;
+        ul{
+            margin-top: 30px;
+            li{
+                margin-top: 5px;
+                a{
+                    color: $secondaryColor;
+                    svg{
+                        padding-left: 2px;
+                    }
+                    span{
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-footer{
+        width: 100%;
+        margin-top: 4rem;
+        text-align: center;
+        .copyright{
+            color: $hoverColor;
+        }
+    }
+}
